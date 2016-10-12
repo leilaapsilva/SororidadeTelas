@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mensagens"
-        android:id="@+id/button10"
+        android:id="@+id/btnMensagens"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp" />
 
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Salas"
-        android:id="@+id/button11"
+        android:id="@+id/btnSalas"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp" />
 
@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Perfil"
-        android:id="@+id/button12"
+        android:id="@+id/btnPerfil"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp" />
 
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Configurações"
-        android:id="@+id/button13"
+        android:id="@+id/btnConfiguracoes"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp" />
 
@@ -55,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sobre o app"
-        android:id="@+id/button14"
+        android:id="@+id/btnSobre"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="10dp" />
 </LinearLayout>

@@ -10,7 +10,7 @@
     tools:context="leilaapsilva.sororidadetelas1.MainActivity">
 
     <Button
-        android:id="@+id/angry_btn"
+        android:id="@+id/btnSala1"
 
         android:text="Sala1"
         android:textColor="#FFF7F7"
@@ -40,7 +40,7 @@
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSala2"
         android:text="Sala2"
         android:textColor="#FFF7F7"
         android:textSize="30sp"
@@ -51,7 +51,7 @@
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:layout_alignTop="@+id/angry_btn"
+        android:layout_alignTop="@+id/btnSala1"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -61,7 +61,7 @@
         android:text="Tema 2"
         android:id="@+id/textView2"
         android:textSize="20dp"
-        android:layout_below="@+id/angry_btn"
+        android:layout_below="@+id/btnSala1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp" />
@@ -96,8 +96,8 @@
         android:shadowDy="0"
         android:shadowRadius="5"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:layout_alignLeft="@+id/btnSala2"
+        android:layout_alignStart="@+id/btnSala2" />
 
     <Button
         android:id="@+id/button4"
@@ -189,8 +189,18 @@
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:layout_alignTop="@+id/button7"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVoltarSalas"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_above="@+id/btnSala2" />
 
 </RelativeLayout>
