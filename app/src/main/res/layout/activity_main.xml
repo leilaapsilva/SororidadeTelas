@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,197 +11,108 @@
     tools:context="leilaapsilva.sororidadetelas1.MainActivity">
 
     <Button
-        android:id="@+id/btnSala1"
-
-        android:text="Sala1"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Tema 1"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="20dp" />
-
-    <Button
-        android:id="@+id/btnSala2"
-        android:text="Sala2"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_alignTop="@+id/btnSala1"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Tema 2"
-        android:id="@+id/textView2"
-        android:textSize="20dp"
-        android:layout_below="@+id/btnSala1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:text="Sala1"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="60dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:text="Sala2"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/btnSala2"
-        android:layout_alignStart="@+id/btnSala2" />
-
-    <Button
-        android:id="@+id/button4"
-        android:text="Sala3"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_alignTop="@+id/button3"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Tema 3"
-        android:id="@+id/textView3"
-        android:textSize="20dp"
-        android:layout_below="@+id/button2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp" />
-
-    <Button
-        android:id="@+id/button5"
-        android:text="+"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_above="@+id/button2"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp" />
-
-    <Button
-        android:id="@+id/button6"
-        android:text="Sala1"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_marginTop="44dp"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:id="@+id/button7"
-        android:text="Sala2"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_alignBottom="@+id/button6"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:id="@+id/button8"
-        android:text="Sala3"
-        android:textColor="#FFF7F7"
-        android:textSize="30sp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/botao_circulo"
-        android:shadowColor="#636363"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:layout_alignBaseline="@+id/button7"
-        android:layout_alignBottom="@+id/button7"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <Button
         android:text="Voltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnVoltarSalas"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5"
-        android:layout_above="@+id/btnSala2" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnRelacionamento"
+        android:textColor="#FFF7F7"
+        android:textSize="11sp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/iconeRelacionamento"
+        android:shadowColor="#636363"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/btnVoltarSalas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <Button
+        android:id="@+id/btnAssedio"
+        android:textColor="#FFF7F7"
+        android:textSize="20sp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/iconeAssedio"
+        android:shadowColor="#636363"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnRelacionamento"
+        android:layout_alignStart="@+id/btnRelacionamento" />
+
+    <Button
+        android:id="@+id/btnMercado"
+        android:textColor="#FFF7F7"
+        android:textSize="17sp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/iconeMercado"
+        android:shadowColor="#636363"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/btnAssedio"
+        android:layout_alignLeft="@+id/btnAssedio"
+        android:layout_alignStart="@+id/btnAssedio"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnPadraoBeleza"
+        android:textColor="#FFF7F7"
+        android:textSize="18sp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/iconeBeleza"
+        android:shadowColor="#636363"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginRight="41dp"
+        android:layout_marginEnd="41dp"
+        android:layout_alignTop="@+id/btnMercado"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnViolencia"
+        android:textColor="#FFF7F7"
+        android:textSize="18sp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/iconeViolencia"
+        android:shadowColor="#636363"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/btnVoltarSalas"
+        android:layout_alignLeft="@+id/btnMaternidade"
+        android:layout_alignStart="@+id/btnMaternidade" />
+
+    <Button
+        android:id="@+id/btnMaternidade"
+        android:textColor="#FFF7F7"
+        android:textSize="14sp"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/iconeMaternidade"
+        android:shadowColor="#636363"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignBaseline="@+id/btnAssedio"
+        android:layout_alignBottom="@+id/btnAssedio"
+        android:layout_alignLeft="@+id/btnPadraoBeleza"
+        android:layout_alignStart="@+id/btnPadraoBeleza" />
 
 </RelativeLayout>

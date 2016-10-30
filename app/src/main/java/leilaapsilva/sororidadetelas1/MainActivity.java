@@ -6,7 +6,7 @@ import android.widget.*;
 import android.view.*;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnEntrar, btnSalas, btnPerfil, btnVoltarPerfil, btnVoltarSalas; //btnConfiguracoes, btnSobre, btnMensagens, btnCadastrar, btnAtualizarInfo, todos os btns salas
+    Button btnEntrar, btnSalas, btnPerfil, btnVoltarPerfil, btnVoltarSalas, btnSair; //btnConfiguracoes, btnSobre, btnMensagens, btnCadastrar, btnAtualizarInfo, todos os btns salas
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +49,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 CarregarTelaPerfil();
+            }
+        });
+
+        btnSair = (Button) findViewById(R.id.btnSair);
+        btnSair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CarregarTelaLogin();
             }
         });
     }
