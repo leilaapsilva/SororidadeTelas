@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void CarregarTelaLogin() {
         setContentView(R.layout.activity_login);
-        btnEntrar = (Button) findViewById(R.id.btnEntrar);
+        ImageButton btnEntrar = (ImageButton) findViewById(R.id.btnEntrar);
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnPerfil = (Button) findViewById(R.id.btnPerfil);
+        Button btnPerfil = (Button) findViewById(R.id.btnPerfil);
         btnPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnSair = (Button) findViewById(R.id.btnSair);
+        Button btnSair = (Button) findViewById(R.id.btnSair);
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void CarregarTelaSalas(){
         setContentView(R.layout.activity_main);
-        btnVoltarSalas = (Button) findViewById(R.id.btnVoltarSalas);
+        Button btnVoltarSalas = (Button) findViewById(R.id.btnVoltarSalas);
         btnVoltarSalas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void CarregarTelaPerfil(){
         setContentView(R.layout.activity_perfil);
-        btnVoltarPerfil = (Button) findViewById(R.id.btnVoltarPerfil);
+        Button btnVoltarPerfil = (Button) findViewById(R.id.btnVoltarPerfil);
         btnVoltarPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
