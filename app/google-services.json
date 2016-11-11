@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "814763514427",
+    "firebase_url": "https://sororidadeapp-33e70.firebaseio.com",
+    "project_id": "sororidadeapp-33e70",
+    "storage_bucket": "sororidadeapp-33e70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814763514427:android:37f71efb54c008f0",
+        "android_client_info": {
+          "package_name": "leilaapsilva.sororidadetelas1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814763514427-gknc1fv661b35aomqrbsusuomahsnno6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyj6-kU2b1ZlCL_luyDVKQqlayOY_DpO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
