@@ -5,6 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.*;
 import android.view.*;
+import android.util.Log;
+import java.lang.Object;
+import android.content.Context;
+import com.google.firebase.auth.AuthResult;
+import com.google.android.gms.tasks.Task;
+import com.google.android.gms.tasks.OnCompleteListener;
+
+import android.support.annotation.NonNull;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     Button btnEntrar, btnSalas, btnPerfil, btnVoltarPerfil, btnVoltarSalas, btnSair, btnCadastrar, btnConcluirCadastro; //btnConfiguracoes, btnSobre, btnMensagens, btnAtualizarInfo, todos os btns salas
@@ -114,19 +125,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        //NAO ESTAMOS BEM
+
         Button btnConcluirCadastro = (Button) findViewById(R.id.btnConcluirCadastro);
         btnConcluirCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent());
-
-
-
-
-
-
-
-
+                Intent intent = new Intent(MainActivity.this, EmailPasswordActivity.class);
+                //startActivityForResult();
 
 
             }
