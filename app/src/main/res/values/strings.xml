@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sororidade Telas1</string>
+    <string name="auth_failed">Erro ao cadastrar</string>
 </resources>

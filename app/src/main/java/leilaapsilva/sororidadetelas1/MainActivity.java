@@ -1,12 +1,17 @@
 package leilaapsilva.sororidadetelas1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.*;
 import android.view.*;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnEntrar, btnSalas, btnPerfil, btnVoltarPerfil, btnVoltarSalas, btnSair; //btnConfiguracoes, btnSobre, btnMensagens, btnCadastrar, btnAtualizarInfo, todos os btns salas
+    Button btnEntrar, btnSalas, btnPerfil, btnVoltarPerfil, btnVoltarSalas, btnSair, btnCadastrar, btnConcluirCadastro; //btnConfiguracoes, btnSobre, btnMensagens, btnAtualizarInfo, todos os btns salas
+
+    //EmailPasswordActivity emailPassword = new EmailPasswordActivity();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 CarregarTelaInicio();
+            }
+        });
+
+        Button btnCadastrar = (Button) findViewById(R.id.btnCadastrar);
+        btnCadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CarregarTelaCadastro();
             }
         });
     }
@@ -91,8 +104,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void CarregarTelaCadastro(){
+        setContentView(R.layout.activity_cadastro);
+        Button btnVoltarCadastro = (Button) findViewById(R.id.btnVoltarCadastro);
+        btnVoltarCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CarregarTelaLogin();
+            }
+        });
+
+        Button btnConcluirCadastro = (Button) findViewById(R.id.btnConcluirCadastro);
+        btnConcluirCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //startActivity(new Intent());
 
 
+
+
+
+
+
+
+
+
+            }
+        });
+    }
 
 
 }
