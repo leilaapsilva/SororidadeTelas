@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void CarregarTelaLogin() {
         setContentView(R.layout.activity_login);
-        ImageButton btnEntrar = (ImageButton) findViewById(R.id.btnEntrar);
+        Button btnEntrar = (Button) findViewById(R.id.btnEntrar);
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
