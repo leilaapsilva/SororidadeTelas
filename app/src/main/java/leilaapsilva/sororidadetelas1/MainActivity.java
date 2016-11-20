@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 CarregarTelaMensagens();
             }
         });*/
+        //a
 
         btnSalas = (Button) findViewById(R.id.btnSalas);
         btnSalas.setOnClickListener(new View.OnClickListener() {
